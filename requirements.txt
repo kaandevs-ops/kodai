@@ -1,0 +1,13 @@
+beautifulsoup4==4.14.3
+huggingface_hub==1.11.0
+numpy==2.4.4
+prompt_toolkit==3.0.52
+regex==2026.4.4
+requests==2.33.1
+rich==15.0.0
+tokenizers==0.22.2
+torch==2.11.0
+tqdm==4.67.3
+transformers==5.5.4
+
+# KodAI v6 — Gerçek bağımlılıklar

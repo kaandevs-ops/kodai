@@ -1,0 +1,68 @@
+# Turkish-AI Default Configuration
+
+# Model Settings
+model:
+  size: "small"  # tiny, small, medium, large
+  vocab_size: 32000
+  max_seq_length: 512
+  dropout: 0.1
+
+# Training Settings
+training:
+  num_epochs: 10
+  batch_size: 4
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  warmup_steps: 1000
+  max_grad_norm: 1.0
+  save_every: 1
+  
+  # Optimizer
+  optimizer: "adamw"
+  beta1: 0.9
+  beta2: 0.95
+  
+  # Scheduler
+  scheduler: "cosine"  # cosine, linear, none
+  min_lr: 0.00001
+
+# Memory Settings
+memory:
+  short_term_limit: 10
+  long_term_db: "./data/memory/long_term.db"
+  vector_storage: "./data/memory/vectors"
+  summary_threshold: 20
+  
+# Generation Settings
+generation:
+  max_length: 150
+  temperature: 0.8
+  top_k: 50
+  top_p: 0.95
+  repetition_penalty: 1.1
+  
+# Data Settings
+data:
+  raw_data_dir: "./datasets/raw"
+  processed_dir: "./datasets/processed"
+  min_text_length: 50
+  max_text_length: 2000
+  
+# Paths
+paths:
+  checkpoints: "./checkpoints"
+  logs: "./logs"
+  tokenizer: "./checkpoints/tokenizer.pkl"
+  
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "./logs/training.log"
+  console: true
+  
+# Hardware
+hardware:
+  device: "auto"  # auto, cuda, cpu
+  mixed_precision: false
+  num_workers: 0
+  pin_memory: true

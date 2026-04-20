@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Virtual environment
+venv/
+.venv/
+
+# Model ve checkpoint dosyaları (çok büyük)
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Dataset dosyaları (çok büyük)
+datasets/
+/data/
+
+# Logs
+logs/
+
+# KodAI runtime dosyaları
+.kodai_gecmis.json
+.kodai_history
+.kodai_snippets.json
+*.bak
+
+# macOS
+.DS_Store
