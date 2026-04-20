@@ -92,4 +92,4 @@ turkish_ai/
 
 ## 📄 License
 
-MIT
+Apache 2.0
