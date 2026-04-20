@@ -90,6 +90,24 @@ turkish_ai/
 | Qwen2.5-Coder-3B | ~6GB | 8GB+ | Daily use |
 | Qwen2.5-Coder-7B | ~14GB | 16GB+ | Complex projects |
 
+
+## 📸 Screenshots
+
+### 🚀 Başlangıç & Model Seçimi
+![Startup](docs/screenshots/startup.png)
+
+### 💬 Kod Yazma (Streaming)
+![Coding](docs/screenshots/coding.png)
+
+### 📁 Dosya Analizi
+![Analysis](docs/screenshots/analysis.png)
+
+### 📊 Karmaşıklık Analizi
+![Complexity](docs/screenshots/complexity.png)
+
+### ⚡ Performans Optimizasyonu
+![Optimize](docs/screenshots/optimize.png)
+
 ## 📄 License
 
 Apache 2.0
