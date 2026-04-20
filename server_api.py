@@ -2,7 +2,7 @@
 Turkish-AI HTTP API Server
 Ollama ile aynı şekilde çalışır, port 5001'de dinler.
 Başlatmak için:
-    cd ~/Desktop/html-ai/turkish_ai
+    cd ~/Desktop/turkish_ai
     source venv/bin/activate
     python3 server_api.py
 """

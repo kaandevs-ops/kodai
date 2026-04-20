@@ -23,7 +23,7 @@
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your_username/turkish-ai.git
+git clone https://github.com/kaandevs-ops/kodai.git
 cd turkish-ai
 python3 -m venv venv
 source venv/bin/activate
