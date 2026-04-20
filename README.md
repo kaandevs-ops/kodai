@@ -91,6 +91,19 @@ turkish_ai/
 | Qwen2.5-Coder-7B | ~14GB | 16GB+ | Complex projects |
 
 
+
+## 🎬 Demo
+
+### 🚀 Başlangıç & Model Seçimi
+![Startup](docs/screenshots/startup.gif)
+
+### 💬 Kod Yazma (Streaming)
+![Coding](docs/screenshots/coding.gif)
+
+### 📁 Dosya Analizi
+![Analysis](docs/screenshots/analysis.gif)
+
+
 ## 📸 Screenshots
 
 ### 🚀 Başlangıç & Model Seçimi
